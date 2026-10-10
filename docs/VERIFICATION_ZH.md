@@ -1,4 +1,4 @@
-# 本地交接验证结果
+# 本地运行验证结果
 
 2026年10月10日完成。交付目录被复制到新目录，运行目录位于该副本外部；使用新建虚拟环境，独立安装固定依赖，Python使用-I隔离模式。没有引用原项目Python代码或用户site-packages。具体执行输出见clean_directory_verification.json。
 
