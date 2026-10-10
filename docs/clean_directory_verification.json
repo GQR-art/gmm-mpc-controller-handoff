@@ -1,0 +1,42 @@
+{
+  "clean_directory": "D:\\hh613qz0317\\handoff-clean-bb4rt4g4\\package",
+  "isolated_python": "D:/hh613qz0317/handoff_verification_env/Scripts/python.exe",
+  "results": [
+    {
+      "args": [
+        "verify.py",
+        "--report"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_f1_corrected_qp_reference (__main__.HandoffTests.test_f1_corrected_qp_reference) ... ok\ntest_invalid_inputs (__main__.HandoffTests.test_invalid_inputs) ... D:\\hh613qz0317\\handoff_verification_env\\Lib\\site-packages\\sklearn\\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.5.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations\n  warnings.warn(\nD:\\hh613qz0317\\handoff_verification_env\\Lib\\site-packages\\sklearn\\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator GaussianMixture from version 1.5.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations\n  warnings.warn(\nok\ntest_models_and_history (__main__.HandoffTests.test_models_and_history) ... D:\\hh613qz0317\\handoff_verification_env\\Lib\\site-packages\\sklearn\\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.5.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations\n  warnings.warn(\nD:\\hh613qz0317\\handoff_verification_env\\Lib\\site-packages\\sklearn\\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator GaussianMixture from version 1.5.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations\n  warnings.warn(\nok\ntest_paper_separate_interface (__main__.HandoffTests.test_paper_separate_interface) ... ok\ntest_project_imports_are_local (__main__.HandoffTests.test_project_imports_are_local) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 4.947s\n\nOK\n"
+    },
+    {
+      "args": [
+        "run_demo.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"scenario\": \"F1C200_N2_005\", \"gmm1_first_delta_ay_r\": [-0.9831775988299178, -0.007517024696066174], \"gmm2_current_q\": [-1.2433487648339299, 0.05140365998911303], \"gmm2_history_q\": [-1.261696407500694, 0.05957779212244254]}\n{\"scenario\": \"F1C200_A2_029\", \"gmm1_first_delta_ay_r\": [8.53133276194825, 0.19406759070541546], \"gmm2_current_q\": [7.934780441810275, 1.6496754767414132], \"gmm2_history_q\": [7.587329974228533, 1.7191251347489502]}\n{\"scenario\": \"F1C200_A4_019\", \"gmm1_first_delta_ay_r\": [-5.395596904284496, -0.12795731385186576], \"gmm2_current_q\": [-3.7502668126278165, -0.9718722470228803], \"gmm2_history_q\": [-3.832964491961639, -1.20800965599402]}\n",
+      "stderr": "D:\\hh613qz0317\\handoff_verification_env\\Lib\\site-packages\\sklearn\\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.5.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations\n  warnings.warn(\nD:\\hh613qz0317\\handoff_verification_env\\Lib\\site-packages\\sklearn\\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator GaussianMixture from version 1.5.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations\n  warnings.warn(\n"
+    },
+    {
+      "args": [
+        "run_demo.py",
+        "--paper"
+      ],
+      "returncode": 0,
+      "stdout": "{\"paper_K15_scalar_residual\": [-1.1846600308731348, -1.2831957484791943]}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "train_from_dataset.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "stdout": "usage: train_from_dataset.py [-h] --output-dir OUTPUT_DIR\n\nOptional reproduction using prepared features. Never runs during handoff\ntests.\n\noptions:\n  -h, --help            show this help message and exit\n  --output-dir OUTPUT_DIR\n                        New empty directory for independently reproduced\n                        models\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true
+}

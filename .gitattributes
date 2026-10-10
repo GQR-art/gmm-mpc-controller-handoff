@@ -1,0 +1,6 @@
+# Preserve frozen source/model bytes so source_manifest remains valid on Windows.
+* -text
+*.joblib binary
+*.gz binary
+*.png binary
+*.pdf binary

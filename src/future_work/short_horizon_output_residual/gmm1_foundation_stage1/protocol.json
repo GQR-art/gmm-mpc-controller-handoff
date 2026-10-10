@@ -1,0 +1,57 @@
+{
+  "scenarios": [
+    "AG2_HSC_V20_AY65_R10_L",
+    "AG2_RSB_V15_AY65_LR",
+    "AG2_BIT_V20_AX35_AY55_PRE_TURN_L"
+  ],
+  "groups": [
+    "F0",
+    "F1"
+  ],
+  "sample_scene": "AG2_BIT_V20_AX35_AY55_PRE_TURN_L",
+  "selection": "existing train scenes; sustained bend, rapid reversal, braking entry; no outcome selection",
+  "sample_station_fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "sample_repeats": [
+    1,
+    2
+  ],
+  "control_dt_s": 0.05,
+  "physics_dt_s": 0.002,
+  "prediction_steps": 20,
+  "history_s": 0.2,
+  "lateral_branch": "frozen selected U1, no replanning",
+  "longitudinal_branch": "online PI and symmetric brake supervisor v2 at every physical step",
+  "F1": "F0(U1)+C_k(U0); one Stanford GMR query and one external QP",
+  "minimal_changes": [
+    "per-interval reference speed replaces propagation hardcoded 15 m/s",
+    "report selected-plan QP prediction instead of queried-plan states"
+  ],
+  "unchanged": [
+    "Stanford artifact",
+    "weights",
+    "constraints",
+    "reference",
+    "20-step horizon",
+    "right-endpoint yaw-rate quadrature",
+    "vehicle",
+    "PI",
+    "brake v2"
+  ],
+  "stop_before_samples_if_any_run_fails": true,
+  "emergency_stops": {
+    "abs_ey_m": 2.0,
+    "abs_epsi_rad": 0.5,
+    "request_abs_ge_rad": 0.349,
+    "continuous_saturation_s": 0.5
+  },
+  "prefix_tolerances": {
+    "core_state_absolute": 1e-07,
+    "controller_memory_absolute": 1e-07,
+    "first_step_same_action_absolute": 1e-07
+  },
+  "scope": "no GMM2 training, batch expansion, retuning or final MPC integration"
+}

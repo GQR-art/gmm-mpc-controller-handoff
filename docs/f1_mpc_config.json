@@ -1,0 +1,22 @@
+{
+  "sample_time_s": 0.05,
+  "horizon_steps": 20,
+  "longitudinal_speed_mps": 15.0,
+  "state_weights": {
+    "ey": 40.0,
+    "epsi": 12.0,
+    "vy": 2.0,
+    "r": 2.0,
+    "terminal_scale": 2.0
+  },
+  "input_weights": {
+    "delta": 0.5,
+    "delta_rate": 8.0
+  },
+  "steering_constraints": {
+    "delta_min_rad": -0.35,
+    "delta_max_rad": 0.35,
+    "delta_rate_min_rad_per_sample": -0.03,
+    "delta_rate_max_rad_per_sample": 0.03
+  }
+}

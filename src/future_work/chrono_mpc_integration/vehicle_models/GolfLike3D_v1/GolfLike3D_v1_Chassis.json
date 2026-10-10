@@ -1,0 +1,25 @@
+{
+  "Name": "GolfLike3D v1 Bicycle-Equivalent Chassis",
+  "Type": "Chassis",
+  "Template": "RigidChassis",
+  "Components": [
+    {
+      "Centroidal Frame": {
+        "Location": [0.002168, 0.0, 0.35],
+        "Orientation": [1, 0, 0, 0]
+      },
+      "Mass": 1524.7387596863,
+      "Moments of Inertia": [675.95, 2632.43, 2810.67],
+      "Products of Inertia": [0, 0, 0],
+      "Void": false
+    }
+  ],
+  "Driver Position": {
+    "Location": [1.0, 0.4, 1.2],
+    "Orientation": [1, 0, 0, 0]
+  },
+  "Rear Connector Location": [-2.5, 0, -0.1],
+  "Visualization": {
+    "Mesh": "sedan/sedan_chassis_vis.obj"
+  }
+}

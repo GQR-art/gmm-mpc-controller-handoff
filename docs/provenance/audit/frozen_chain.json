@@ -1,0 +1,37 @@
+{
+  "base_reviewer2_directory": "revision_round1\\reviewer2_residual_baselines",
+  "dataframe_hash": "294ce883cdf386619808e9bcc683097837925ea72fb620fc970eccb49a01a25a",
+  "source_csv_sha256": "ccecb8a79d8330e1d2511d448ef0f6b04e9220a223d267f28966aae22b7be4ef",
+  "n_total": 500904,
+  "n_train": 400724,
+  "n_test": 100180,
+  "feature_order": [
+    "vx",
+    "steering_angle",
+    "steering_rate",
+    "yaw_rate",
+    "longitudinal_acceleration",
+    "ay_bike"
+  ],
+  "x_scaler_hash": "8378c259130ba1abbee6ee77c624b7896c67844bf4113afda3b7770585c77f67",
+  "y_scaler_hash": "a871df41289b283a9355941045d83a51cc87d2c39aaf8a1c079ceaecc1cb250e",
+  "random_state": 42,
+  "selection_rule": "argmin training-set BIC only",
+  "candidate_components": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ]
+}

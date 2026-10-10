@@ -1,0 +1,41 @@
+{
+  "Name": "GolfLike Bicycle-Equivalent Vehicle",
+  "Type": "Vehicle",
+  "Template": "WheeledVehicle",
+  "Chassis": {
+    "Input File": "GolfLike_Chassis.json"
+  },
+  "Axles": [
+    {
+      "Suspension Input File": "sedan/suspension/Sedan_DoubleWishbone.json",
+      "Suspension Location": [1.3, 0, 0.25],
+      "Steering Index": 0,
+      "Left Wheel Input File": "sedan/wheel/Sedan_Wheel.json",
+      "Right Wheel Input File": "sedan/wheel/Sedan_Wheel.json",
+      "Left Brake Input File": "sedan/brake/Sedan_BrakeSimple.json",
+      "Right Brake Input File": "sedan/brake/Sedan_BrakeSimple.json"
+    },
+    {
+      "Suspension Input File": "sedan/suspension/Sedan_DoubleWishbone.json",
+      "Suspension Location": [-1.4, 0, 0.125],
+      "Left Wheel Input File": "sedan/wheel/Sedan_Wheel.json",
+      "Right Wheel Input File": "sedan/wheel/Sedan_Wheel.json",
+      "Left Brake Input File": "sedan/brake/Sedan_BrakeSimple.json",
+      "Right Brake Input File": "sedan/brake/Sedan_BrakeSimple.json"
+    }
+  ],
+  "Steering Subsystems": [
+    {
+      "Input File": "sedan/steering/Sedan_RackPinion.json",
+      "Location": [1.112, 0, 0.14],
+      "Orientation": [1, 0, 0, 0]
+    }
+  ],
+  "Wheelbase": 2.7,
+  "Minimum Turning Radius": 7.6,
+  "Maximum Steering Angle (deg)": 25.0,
+  "Driveline": {
+    "Input File": "sedan/driveline/Sedan_Driveline2WD.json",
+    "Suspension Indexes": [1]
+  }
+}

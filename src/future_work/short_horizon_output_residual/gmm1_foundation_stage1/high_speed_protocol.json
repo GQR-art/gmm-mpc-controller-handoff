@@ -1,0 +1,133 @@
+{
+  "purpose": "bounded high-speed validation; low-speed three scenes remain interface/data-pipeline validation",
+  "selection_rule": "all byte-unique Stanford medoid scenes with source formal-segment mean vx >= 25.0 m/s; no control outcome used",
+  "eligible_scenes": [
+    "S03",
+    "S05",
+    "S06",
+    "S09",
+    "S10",
+    "S11",
+    "S13",
+    "S14",
+    "S17",
+    "S19",
+    "S20"
+  ],
+  "regression_scenes": [
+    "S03",
+    "S13",
+    "S19"
+  ],
+  "new_scenes": [
+    "S05",
+    "S06",
+    "S09",
+    "S10",
+    "S11",
+    "S14",
+    "S17",
+    "S20"
+  ],
+  "split_counts": {
+    "train": 7,
+    "validation": 1,
+    "test": 3
+  },
+  "selection_check": {
+    "S03": {
+      "source_file": "2023-10_4.csv",
+      "split": "train",
+      "vx_mean_mps": 28.571813666831158,
+      "eligible": true,
+      "role": "regression"
+    },
+    "S05": {
+      "source_file": "2023-10_6.csv",
+      "split": "train",
+      "vx_mean_mps": 25.021612502489027,
+      "eligible": true,
+      "role": "new"
+    },
+    "S06": {
+      "source_file": "2023-10_7.csv",
+      "split": "train",
+      "vx_mean_mps": 25.891701984259257,
+      "eligible": true,
+      "role": "new"
+    },
+    "S09": {
+      "source_file": "2023-11.csv",
+      "split": "train",
+      "vx_mean_mps": 28.105917175751884,
+      "eligible": true,
+      "role": "new"
+    },
+    "S10": {
+      "source_file": "2023-11_1.csv",
+      "split": "train",
+      "vx_mean_mps": 25.382752790664263,
+      "eligible": true,
+      "role": "new"
+    },
+    "S11": {
+      "source_file": "2023-11_10.csv",
+      "split": "validation",
+      "vx_mean_mps": 28.817591145825478,
+      "eligible": true,
+      "role": "new"
+    },
+    "S13": {
+      "source_file": "2023-11_2.csv",
+      "split": "train",
+      "vx_mean_mps": 28.28438496066114,
+      "eligible": true,
+      "role": "regression"
+    },
+    "S14": {
+      "source_file": "2023-11_3.csv",
+      "split": "train",
+      "vx_mean_mps": 25.338800291546743,
+      "eligible": true,
+      "role": "new"
+    },
+    "S17": {
+      "source_file": "2023-11_6.csv",
+      "split": "test",
+      "vx_mean_mps": 25.714889424208852,
+      "eligible": true,
+      "role": "new"
+    },
+    "S19": {
+      "source_file": "2023-11_8.csv",
+      "split": "test",
+      "vx_mean_mps": 28.906804188892412,
+      "eligible": true,
+      "role": "regression"
+    },
+    "S20": {
+      "source_file": "2023-11_9.csv",
+      "split": "test",
+      "vx_mean_mps": 25.66953473026391,
+      "eligible": true,
+      "role": "new"
+    }
+  },
+  "groups": {
+    "F0": "variable-speed Nominal",
+    "F1": "F0(U1)+C(U0), one frozen Stanford GMM query and one corrected QP"
+  },
+  "frozen": [
+    "selected_rollout_aligned_B.joblib",
+    "MPC weights",
+    "constraints",
+    "reference",
+    "Ts=0.05 s",
+    "N=20",
+    "PI",
+    "four-wheel brake supervisor v2"
+  ],
+  "interface_note": "F1 retains the Stage-1 minimal correction: interval speed is used in delta-r propagation and selected U1 predictions are logged; no model retraining/adaptation/scaling/filter/gating/iteration.",
+  "prediction_score": "matched executed first 0.05 s action; target state is projected into the cycle's frozen step-1 reference frame",
+  "excluded_claim": "20-step rolling horizons are saved but not scored against replanned closed-loop truth as strict same-plan residuals"
+}

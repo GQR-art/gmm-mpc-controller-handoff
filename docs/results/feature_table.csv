@@ -1,0 +1,25 @@
+name,role,unit,causal_availability,used_by
+current_vx_mps,Current input,m/s,query time,Current and History
+current_vy_mps,Current input,m/s,query time,Current and History
+current_r_radps,Current input,rad/s,query time,Current and History
+current_ey_m,Current input,m,query time,Current and History
+current_epsi_rad,Current input,rad,query time,Current and History
+request_road_wheel_rad,Current input,rad,query time,Current and History
+actual_road_wheel_rad,Current input,rad,query time,Current and History
+previous_request_road_wheel_rad,Current input,rad,query time,Current and History
+preview_curvature_per_m,Current input,1/m,query time,Current and History
+preview_speed_mps,Current input,m/s,query time,Current and History
+pi_integral_before,Current input,m/s*s,query time,Current and History
+abs_multiplier_min,Current input,1,query time,Current and History
+F1_next_vy_mps,Current input,m/s,query time,Current and History
+F1_next_r_radps,Current input,rad/s,query time,Current and History
+history_020s_vx_mps_rate,History input,m/s^2,query time and past only,History only
+history_020s_vy_mps_rate,History input,m/s^2,query time and past only,History only
+history_020s_r_radps_rate,History input,rad/s^2,query time and past only,History only
+history_020s_delta_actual_rad_rate,History input,rad/s,query time and past only,History only
+history_005s_vx_mps_rate,History input,m/s^2,query time and past only,History only
+history_005s_vy_mps_rate,History input,m/s^2,query time and past only,History only
+history_005s_r_radps_rate,History input,rad/s^2,query time and past only,History only
+history_005s_delta_actual_rad_rate,History input,rad/s,query time and past only,History only
+q_vy_interval_mps2,training label,m/s^2,offline next state only,both models as target
+q_r_interval_radps2,training label,rad/s^2,offline next state only,both models as target

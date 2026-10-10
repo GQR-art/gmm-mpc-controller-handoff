@@ -1,0 +1,24 @@
+{
+  "gmm1_control_k3.joblib": {
+    "sklearn_load_warnings": [],
+    "components": 3
+  },
+  "gmm1_paper_k15.joblib": {
+    "sklearn_load_warnings": [],
+    "components": 15
+  },
+  "gmm2_current.joblib": {
+    "sklearn_load_warnings": [
+      "Trying to unpickle estimator StandardScaler from version 1.5.1 when using version 1.8.0.",
+      "Trying to unpickle estimator GaussianMixture from version 1.5.1 when using version 1.8.0."
+    ],
+    "components": 8
+  },
+  "gmm2_history.joblib": {
+    "sklearn_load_warnings": [
+      "Trying to unpickle estimator StandardScaler from version 1.5.1 when using version 1.8.0.",
+      "Trying to unpickle estimator GaussianMixture from version 1.5.1 when using version 1.8.0."
+    ],
+    "components": 5
+  }
+}

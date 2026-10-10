@@ -1,0 +1,53 @@
+{
+  "Name": "Rigid plane",
+  "Type": "Terrain",
+  "Template": "RigidTerrain",
+  "Patches": [
+    {
+      "Location": [
+        0,
+        0,
+        0
+      ],
+      "Orientation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "Geometry": {
+        "Dimensions": [
+          480,
+          200,
+          2
+        ]
+      },
+      "Contact Material": {
+        "Coefficient of Friction": 0.8,
+        "Coefficient of Restitution": 0.01,
+        "Properties": {
+          "Young Modulus": 20000000.0,
+          "Poisson Ratio": 0.3
+        },
+        "Coefficients": {
+          "Normal Stiffness": 200000.0,
+          "Normal Damping": 40.0,
+          "Tangential Stiffness": 200000.0,
+          "Tangential Damping": 20.0
+        }
+      },
+      "Visualization": {
+        "Color": [
+          0.5,
+          0.5,
+          0.8
+        ],
+        "Texture File": "terrain/textures/tile4.jpg",
+        "Texture Scaling": [
+          200,
+          200
+        ]
+      }
+    }
+  ]
+}

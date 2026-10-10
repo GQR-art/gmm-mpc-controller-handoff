@@ -1,0 +1,45 @@
+{
+  "Name": "GolfLike Front TMeasy Tire",
+  "Type": "Tire",
+  "Template": "TMeasyTire",
+  "Design": {
+    "Unloaded Radius [m]": 0.3266,
+    "Mass [kg]": 11.5,
+    "Inertia [kg.m2]": [0.156, 0.679, 0.156],
+    "Width [m]": 0.245,
+    "Rim Radius [m]": 0.2286
+  },
+  "Coefficient of Friction": 0.8,
+  "Rolling Resistance Coefficient": 0.015,
+  "Parameters": {
+    "Vertical": {
+      "Nominal Vertical Force [N]": 3580.65,
+      "Maximum Vertical Force [N]": 12532.275,
+      "Vertical Tire Stiffness [N/m]": 456715.56122449,
+      "Tire Vertical Damping [Ns/m]": 2291.77419352
+    },
+    "Longitudinal": {
+      "Initial Slopes dFx/dsx [N]": [65791.221165, 139408.31097],
+      "Maximum Fx Load [N]": [4043.26998, 7802.95248],
+      "Sliding Fx Load [N]": [2869.8551685, 5508.257121],
+      "Slip sx at Maximum Fx": [0.13913, 0.13913],
+      "Slip sx where sliding begins": [0.66667, 0.66667]
+    },
+    "Lateral": {
+      "Initial Slopes dFy/dsy [N]": [123825.62604394, 199125.39107881],
+      "Maximum Fy Load [N]": [3583.872585, 6543.064971],
+      "Sliding Fy Load [N]": [2984.82984, 5538.262968],
+      "Slip sy at Maximum Fy": [0.14852, 0.18504],
+      "Slip sy where sliding begins": [0.96524, 1.0714]
+    },
+    "Aligning": {
+      "Normalized Trail at Zero Slip sy": [0.178, 0.19],
+      "Slip sy where Trail Changes Sign": [0.16337, 0.20355],
+      "Slip sy where Trail Tends to Zero": [0.96524, 1.0714]
+    }
+  },
+  "Visualization": {
+    "Mesh Filename Left": "sedan/sedan_tire.obj",
+    "Mesh Filename Right": "sedan/sedan_tire.obj"
+  }
+}

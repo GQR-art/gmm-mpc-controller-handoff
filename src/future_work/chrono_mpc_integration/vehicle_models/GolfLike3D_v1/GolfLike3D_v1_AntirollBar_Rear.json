@@ -1,0 +1,19 @@
+{
+  "Name": "GolfLike3D v1 Rear Mild RSD Antirollbar",
+  "Type": "Antirollbar",
+  "Template": "AntirollBarRSD",
+  "Arm": {
+    "Mass": 1.0,
+    "Inertia": [0.04, 0.002, 0.04],
+    "Length": 0.70,
+    "Width": 0.25,
+    "Radius": 0.015
+  },
+  "Droplink": {
+    "Height": -0.04
+  },
+  "RSD": {
+    "Spring Coefficient": 6000.0,
+    "Damping Coefficient": 75.0
+  }
+}

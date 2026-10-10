@@ -1,0 +1,10 @@
+{
+  "catalog_rows": 200,
+  "recorded_runs": 200,
+  "finished_runs": 200,
+  "failed_runs": 0,
+  "one_step_rows": 38183,
+  "multistep_rows_marked_pending": 38383,
+  "training_performed": false,
+  "test_used_for_model_selection": false
+}

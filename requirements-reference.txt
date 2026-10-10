@@ -1,0 +1,2 @@
+-r requirements-inference.txt
+osqp==1.1.3

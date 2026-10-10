@@ -1,0 +1,23 @@
+{
+  "scaler_fit": "train only",
+  "gmm_fit": "train only",
+  "selection": "validation only",
+  "test_evaluated_once": true,
+  "selected_k": 3,
+  "feature_definition": [
+    "vx",
+    "r_bicycle",
+    "ay_bicycle",
+    "delta_future",
+    "delta_dot_future",
+    "prediction_time_s"
+  ],
+  "test_metrics": {
+    "rmse_delta_ay": 3.358941521004136,
+    "rmse_delta_r": 0.048072616988015945,
+    "nll_moment_gaussian": 0.7441613676984659,
+    "coverage95_delta_ay": 0.9551867219917013,
+    "coverage95_delta_r": 0.9441908713692946
+  },
+  "model_path": "D:\\hh613qz0317\\future_work\\short_horizon_output_residual\\control_aware_rollout_gmr\\outputs\\selected_rollout_aligned_B.joblib"
+}

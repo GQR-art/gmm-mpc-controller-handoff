@@ -1,0 +1,61 @@
+{
+  "Name": "GolfLike3D v1 DoubleWishbone with Progressive Stops",
+  "Type": "Suspension",
+  "Template": "DoubleWishbone",
+  "Camber Angle (deg)": 0,
+  "Toe Angle (deg)": 0,
+  "Spindle": {
+    "Mass": 1.103,
+    "COM": [0, 0.7979, -0.1199],
+    "Inertia": [0.000478, 0.000496, 0.000478],
+    "Radius": 0.1,
+    "Width": 0.02
+  },
+  "Upright": {
+    "Mass": 1.397,
+    "COM": [-0.0224, 0.747, -0.1118],
+    "Moments of Inertia": [0.0138, 0.0146, 0.00283],
+    "Products of Inertia": [0, 0, 0],
+    "Radius": 0.025
+  },
+  "Upper Control Arm": {
+    "Mass": 1.032,
+    "COM": [-0.1083, 0.5972, 0.1063],
+    "Moments of Inertia": [0.00591, 0.0019, 0.00769],
+    "Products of Inertia": [0, 0, 0],
+    "Radius": 0.02,
+    "Location Chassis Front": [-0.1, 0.47, 0.105],
+    "Location Chassis Back": [-0.25, 0.51, 0.11],
+    "Location Upright": [-0.04, 0.695, 0.105]
+  },
+  "Lower Control Arm": {
+    "Mass": 1.611,
+    "COM": [0.0048, 0.6112, -0.2932],
+    "Moments of Inertia": [0.0151, 0.0207, 0.0355],
+    "Products of Inertia": [0, 0, 0],
+    "Radius": 0.03,
+    "Location Chassis Front": [0.2, 0.42, -0.27],
+    "Location Chassis Back": [-0.2, 0.47, -0.265],
+    "Location Upright": [0, 0.77, -0.32]
+  },
+  "Tierod": {
+    "Location Chassis": [-0.2, 0.42, -0.12],
+    "Location Upright": [-0.15, 0.77, -0.12]
+  },
+  "Spring": {
+    "Location Chassis": [-0.04, 0.52, 0.23],
+    "Location Arm": [0, 0.62, -0.27],
+    "Free Length": 0.51,
+    "Spring Coefficient": 500000.0,
+    "Minimum Length": 0.46,
+    "Maximum Length": 0.54
+  },
+  "Shock": {
+    "Location Chassis": [-0.04, 0.52, 0.23],
+    "Location Arm": [0, 0.62, -0.27],
+    "Damping Coefficient": 10000.0
+  },
+  "Axle": {
+    "Inertia": 0.4
+  }
+}

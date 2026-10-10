@@ -1,0 +1,770 @@
+[
+  {
+    "source": "residual_model/gmm_residual.py",
+    "destination": "src/residual_model/gmm_residual.py",
+    "bytes": 17547,
+    "sha256": "6b3ade8d3977ea282f462309e03ed36922361ca94d094175fd1aa118c36e331c"
+  },
+  {
+    "source": "residual_model/residual_smoothing.py",
+    "destination": "src/residual_model/residual_smoothing.py",
+    "bytes": 3505,
+    "sha256": "90f82b49677c9ebfcc1785226e0ac7b5e48bde843a03f1735db5f2b91931bfb6"
+  },
+  {
+    "source": "residual_model/residual_gating.py",
+    "destination": "src/residual_model/residual_gating.py",
+    "bytes": 2802,
+    "sha256": "3d7ad22eaf7995f841c09f3195e644681e73a5097c8322f025ec42501a2eb3dd"
+  },
+  {
+    "source": "residual_model/__init__.py",
+    "destination": "src/residual_model/__init__.py",
+    "bytes": 1124,
+    "sha256": "69ee243c2eb4738e4136831d28a480bb3fa71ec9e4102c3512c04604a2e134ac"
+  },
+  {
+    "source": "residual_model/steering_rate.py",
+    "destination": "src/residual_model/steering_rate.py",
+    "bytes": 9914,
+    "sha256": "e81de6e4f0c7928aff67c6b349b6f1e3279029eeacd49d9b64195ac7de64942b"
+  },
+  {
+    "source": "residual_model/config.py",
+    "destination": "src/residual_model/config.py",
+    "bytes": 3521,
+    "sha256": "77ab4e54f692b603c656e651603fb3d920a06394089a56acb134203cbdb3abe5"
+  },
+  {
+    "source": "residual_model/data_utils.py",
+    "destination": "src/residual_model/data_utils.py",
+    "bytes": 14456,
+    "sha256": "38c4059ef135dea1b9477b32af23ba3b69121ac4724b82caeabf8561142d5dc7"
+  },
+  {
+    "source": "residual_model/feature_preprocessing.py",
+    "destination": "src/residual_model/feature_preprocessing.py",
+    "bytes": 6572,
+    "sha256": "58a2edda55d199332465f8af2aa72de7335f1f2f8632a4dba4c48ed9cdfa2d58"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/f1_200_scene_collection/scenarios.py",
+    "destination": "src/future_work/short_horizon_output_residual/f1_200_scene_collection/scenarios.py",
+    "bytes": 6454,
+    "sha256": "a50b6fccc4a2a66c3cdb92d4c38126778a02306843aeec50d02b0ff15935121a"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/stanford_feature_driven_chrono_final/scenarios.py",
+    "destination": "src/future_work/short_horizon_output_residual/stanford_feature_driven_chrono_final/scenarios.py",
+    "bytes": 5919,
+    "sha256": "db717e87c5713c717248602be32a21499a40ee85483a8ad73000d2952029c827"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_variable_speed_nominal_validation/variable_speed_mpc.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_variable_speed_nominal_validation/variable_speed_mpc.py",
+    "bytes": 6564,
+    "sha256": "dc3901a39e3f6129bb6b17279fd92246331e469c2e0dea76b894f4a2ac7a2320"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/bridge/state_mapper.py",
+    "destination": "src/future_work/chrono_mpc_integration/bridge/state_mapper.py",
+    "bytes": 759,
+    "sha256": "cc84ee9bd4de0491c66ba65b956ca795e1a529ab592d3f330ac14f5521210fe3"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/bridge/types.py",
+    "destination": "src/future_work/chrono_mpc_integration/bridge/types.py",
+    "bytes": 7068,
+    "sha256": "0f271ebb16742daff968671908af9397191a1b13825ac727986942570ac39996"
+  },
+  {
+    "source": "future_work/__init__.py",
+    "destination": "src/future_work/__init__.py",
+    "bytes": 74,
+    "sha256": "eba6a713f92431cf1fe542d55cc82307cdef78a19db540b3a2a962ce459e96a5"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/__init__.py",
+    "destination": "src/future_work/chrono_mpc_integration/__init__.py",
+    "bytes": 132,
+    "sha256": "9429d36513b4504c492ef25a4f39d66c45213bba322fccfa4601e2d660555ee5"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/bridge/__init__.py",
+    "destination": "src/future_work/chrono_mpc_integration/bridge/__init__.py",
+    "bytes": 55,
+    "sha256": "ebc146bd7559c756ee1ecd2bbe650a2a09eb70740ef015e76d7ca49adf361bb5"
+  },
+  {
+    "source": "future_work/later_mpc/types.py",
+    "destination": "src/future_work/later_mpc/types.py",
+    "bytes": 3432,
+    "sha256": "aaa5b357f79cec8abccb2f273efac13be5410dad79111406fae55fb82529a23c"
+  },
+  {
+    "source": "future_work/later_mpc/__init__.py",
+    "destination": "src/future_work/later_mpc/__init__.py",
+    "bytes": 703,
+    "sha256": "008f77ddf47934736819e6f1c958ec78843b68c634f7912a1169c4b696a5b51c"
+  },
+  {
+    "source": "future_work/later_mpc/config.py",
+    "destination": "src/future_work/later_mpc/config.py",
+    "bytes": 4569,
+    "sha256": "843fdb7d71bd1ac681bc0186649396d8bad29222b71daff1334203d4da343abf"
+  },
+  {
+    "source": "future_work/later_mpc/reference_path.py",
+    "destination": "src/future_work/later_mpc/reference_path.py",
+    "bytes": 7773,
+    "sha256": "c4ef60b814d9cd1c673b9f2c36982d652e87c0f29e80eb5497b02dbdf4e9bfda"
+  },
+  {
+    "source": "future_work/later_mpc/nominal_bicycle_predictor.py",
+    "destination": "src/future_work/later_mpc/nominal_bicycle_predictor.py",
+    "bytes": 5021,
+    "sha256": "ffafea5256a0cf91403cc509d9e593bd74cd92e1ced3df60400b94b2bfd27b70"
+  },
+  {
+    "source": "future_work/later_mpc/prediction_model.py",
+    "destination": "src/future_work/later_mpc/prediction_model.py",
+    "bytes": 1760,
+    "sha256": "41137270bce6f1f814059451a19c253ed4714e0fd6219e0e9cf9feab619416c8"
+  },
+  {
+    "source": "future_work/later_mpc/mpc_optimizer.py",
+    "destination": "src/future_work/later_mpc/mpc_optimizer.py",
+    "bytes": 10565,
+    "sha256": "114aeac6e8b17b9f613210254fbca20da563164a32edeef88caafaa71c49c89e"
+  },
+  {
+    "source": "future_work/later_mpc/error_state.py",
+    "destination": "src/future_work/later_mpc/error_state.py",
+    "bytes": 1369,
+    "sha256": "c9df0782233593353d850f0a78f0b4214a6e46301a2c00d7779ad5f832c22578"
+  },
+  {
+    "source": "future_work/later_mpc/controller.py",
+    "destination": "src/future_work/later_mpc/controller.py",
+    "bytes": 2264,
+    "sha256": "93ec6aae9fdd8e53e6070b43c3a78af27b3f9609d2f6c074c6b539e8f92959ea"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/__init__.py",
+    "bytes": 66,
+    "sha256": "4ea8fe1d385ea4b2e34d2b4251cbe38835f9fc16fc29780547053006057e63a3"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_variable_speed_nominal_validation/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_variable_speed_nominal_validation/__init__.py",
+    "bytes": 63,
+    "sha256": "ef30a2e596d3f9b4339befe83aa9693eda24df0734fc9ed10fa19a50e824d9e0"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/stanford_feature_driven_chrono_final/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/stanford_feature_driven_chrono_final/__init__.py",
+    "bytes": 67,
+    "sha256": "860e2f657e4d33d2df689ff16668608e99c3198010d98aa537a65ae8b15d3329"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/f1_200_scene_collection/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/f1_200_scene_collection/__init__.py",
+    "bytes": 66,
+    "sha256": "2c508c0bc1b6d9d82ded2655fb92f030ca7b6a127be32f75cef8cd2eba939a6c"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/f1_200_scene_collection/catalog.py",
+    "destination": "src/future_work/short_horizon_output_residual/f1_200_scene_collection/catalog.py",
+    "bytes": 10960,
+    "sha256": "822a237252061d5287dbb1e85f382ee495d44dc7f991437a311b448bc9f3c606"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/f1_200_scene_collection/experiment.py",
+    "destination": "src/future_work/short_horizon_output_residual/f1_200_scene_collection/experiment.py",
+    "bytes": 19854,
+    "sha256": "644d85b41500f88ac2a9e25738879836887a0191ca8e61b82d2ef3e1c54e51bd"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/mpc_integration/rollout_aligned_sequential_layer.py",
+    "destination": "src/future_work/short_horizon_output_residual/mpc_integration/rollout_aligned_sequential_layer.py",
+    "bytes": 7047,
+    "sha256": "608730a288d2c19ea03589371d51b23ab50d2cb2a795caecaf1cde72a6911b9c"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm_gmr/gmr_predictor.py",
+    "destination": "src/future_work/short_horizon_output_residual/gmm_gmr/gmr_predictor.py",
+    "bytes": 1089,
+    "sha256": "944e427c1d011d2ac199e3b5102033a8ba7ca503d423cac45da4a40bd0a436b2"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm_gmr/gmm_model.py",
+    "destination": "src/future_work/short_horizon_output_residual/gmm_gmr/gmm_model.py",
+    "bytes": 357,
+    "sha256": "93de815a5377e654f5a856460ad5e250553a6edd92219cc77658d210d24503d7"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm_gmr/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/gmm_gmr/__init__.py",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/data_generation/bicycle_rollout.py",
+    "destination": "src/future_work/short_horizon_output_residual/data_generation/bicycle_rollout.py",
+    "bytes": 1574,
+    "sha256": "c69003d1c84993067f73260cd0abbc2ac72301780a8b80c102e4b0ab6e17be31"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/config.py",
+    "destination": "src/future_work/short_horizon_output_residual/config.py",
+    "bytes": 689,
+    "sha256": "27c994363bdf293282e2f45e681fd421892ce8d7a2ac19cd39ed93e309ec6ef8"
+  },
+  {
+    "source": "bicycle_model.py",
+    "destination": "src/bicycle_model.py",
+    "bytes": 5613,
+    "sha256": "6c0f6ae66389063207fa9189a2ddecaf6aac8f1e8d0c692ee781b56d40c8c59e"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/data_generation/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/data_generation/__init__.py",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/mpc_integration/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/mpc_integration/__init__.py",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm1_foundation_stage1/model.py",
+    "destination": "src/future_work/short_horizon_output_residual/gmm1_foundation_stage1/model.py",
+    "bytes": 4433,
+    "sha256": "cd6b07d4411e5bb75533a75a3cf83af14076efa40714874ee347d171134a235a"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/mpc_integration/full_residual_propagated_gmr_mpc/adapter.py",
+    "destination": "src/future_work/short_horizon_output_residual/mpc_integration/full_residual_propagated_gmr_mpc/adapter.py",
+    "bytes": 12089,
+    "sha256": "1b3183907ad5a8925d14ad34603a19c120fe1edcf943e96532a2565cdc3cc337"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/residual_trajectory_propagation_audit/run_audit.py",
+    "destination": "src/future_work/short_horizon_output_residual/residual_trajectory_propagation_audit/run_audit.py",
+    "bytes": 40225,
+    "sha256": "ce1946449915a7eeff00fd2f5dea969e1382e7c7ef39a770907cd6358f23df3e"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/mpc_integration/residual_output_plant.py",
+    "destination": "src/future_work/short_horizon_output_residual/mpc_integration/residual_output_plant.py",
+    "bytes": 7961,
+    "sha256": "b49dd0f5930a8ec03c637f9d518012316eacf555aef364451e150debca925f60"
+  },
+  {
+    "source": "future_work/later_mpc/dynamic_bicycle_plant.py",
+    "destination": "src/future_work/later_mpc/dynamic_bicycle_plant.py",
+    "bytes": 4365,
+    "sha256": "c7f3133204475a5739c58f91aa202c99c914273ab77d96f49e2744c7556cb4e3"
+  },
+  {
+    "source": "future_work/later_mpc/scenarios.py",
+    "destination": "src/future_work/later_mpc/scenarios.py",
+    "bytes": 1736,
+    "sha256": "5e6fdd91a49edadea964054f275db6d09c6dc2f68d8547728a178c0b67a6d550"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/residual_trajectory_propagation_audit/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/residual_trajectory_propagation_audit/__init__.py",
+    "bytes": 69,
+    "sha256": "ae3ca69fa5b71884b2fba791c23959bea1cc9608ff8d4e53dd5531caf146ff87"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/mpc_integration/full_residual_propagated_gmr_mpc/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/mpc_integration/full_residual_propagated_gmr_mpc/__init__.py",
+    "bytes": 178,
+    "sha256": "e0b5a8cc515a587992901c31ed86653e269be4fb262f56e6ae4821ec9b8d0434"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_fullterrain_frozen_gmr_exploratory_closed_loop/variable_speed_gmr.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_fullterrain_frozen_gmr_exploratory_closed_loop/variable_speed_gmr.py",
+    "bytes": 11300,
+    "sha256": "3e83eeefbcbd73e02d1a0e947d0783e41d18a814ec94b1d0f0a6b9cd3cae91e2"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/chrono_full_mean_gmr_mpc_smoke/cached_inference.py",
+    "destination": "src/future_work/short_horizon_output_residual/chrono_full_mean_gmr_mpc_smoke/cached_inference.py",
+    "bytes": 2681,
+    "sha256": "ffc2bb8a77a944338a7bd6f0a151866b52f0ab060841103e9e6b7ae2bc8ac15c"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/chrono_full_mean_gmr_mpc_smoke/bridge/chrono_full_mean_gmr_bridge.py",
+    "destination": "src/future_work/short_horizon_output_residual/chrono_full_mean_gmr_mpc_smoke/bridge/chrono_full_mean_gmr_bridge.py",
+    "bytes": 9764,
+    "sha256": "beda861c137dd44d2b202a3e6fba58060d52f70f5bce5f3a3e0ba845a8c623ea"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/chrono_full_mean_gmr_mpc_smoke/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/chrono_full_mean_gmr_mpc_smoke/__init__.py",
+    "bytes": 71,
+    "sha256": "6975283ebfab9378b00c50fc76f28fcac013f7c07392b543b0a80195f4341f7f"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/chrono_full_mean_gmr_mpc_smoke/bridge/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/chrono_full_mean_gmr_mpc_smoke/bridge/__init__.py",
+    "bytes": 181,
+    "sha256": "319f2cdf46fabe8a3912d4b672b0b350d70ce96580bf531d63293a5799c97d00"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_fullterrain_frozen_gmr_exploratory_closed_loop/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_fullterrain_frozen_gmr_exploratory_closed_loop/__init__.py",
+    "bytes": 72,
+    "sha256": "2e308aadec1fb6c0004b5414ae0324dcba7fea3b9cd2ca5111a569e5148a11f4"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm1_foundation_stage1/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/gmm1_foundation_stage1/__init__.py",
+    "bytes": 54,
+    "sha256": "7d084e3374451a7df83a05df81e3e8297742285a1f599d6af12fb576ea5de1e7"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_original_speed_friction_sensitivity/run_experiment.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_original_speed_friction_sensitivity/run_experiment.py",
+    "bytes": 17108,
+    "sha256": "832b252e831d8aa53a59ca533694bd7626500dba5c6263272240b689d3294d7d"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_high_speed_yaw_dynamics_audit/run_diagnostic_replay.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_high_speed_yaw_dynamics_audit/run_diagnostic_replay.py",
+    "bytes": 7833,
+    "sha256": "5b194d3344d99b2cb6aafec6d9f4385b5762d7b5c60c9c2dab0234c66e26d878"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_variable_speed_nominal_validation/run_experiment.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_variable_speed_nominal_validation/run_experiment.py",
+    "bytes": 9356,
+    "sha256": "c7dfe9bc560aa1f1be800149ee6061fff34670c0b3024dd30b696e35b5554143"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_variable_speed_nominal_validation/profiles.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_variable_speed_nominal_validation/profiles.py",
+    "bytes": 1818,
+    "sha256": "bfa1857371dc994357cefda198b84ea34db1790591f7ae5bc9036db6af773bc7"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_reference_nominal_failure_localization/reference_path.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_reference_nominal_failure_localization/reference_path.py",
+    "bytes": 5837,
+    "sha256": "05c3812e43c204a6c5bd85ef5d17b47cede8fd4bd8181b80143faf80a1db066d"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_reference_nominal_failure_localization/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_reference_nominal_failure_localization/__init__.py",
+    "bytes": 76,
+    "sha256": "58aec7204bf7ecf48847c7d4d7d2acf17a992e3dd24296d29adbbe6e81a4bee9"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/chrono_full_mean_gmr_mpc_smoke/run_smoke.py",
+    "destination": "src/future_work/short_horizon_output_residual/chrono_full_mean_gmr_mpc_smoke/run_smoke.py",
+    "bytes": 13307,
+    "sha256": "06a736d5e48297b7d40f385982465ee7c96dc25561beb78c39b7415554df5a61"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/scenarios/offset_recovery.py",
+    "destination": "src/future_work/chrono_mpc_integration/scenarios/offset_recovery.py",
+    "bytes": 563,
+    "sha256": "16206695d26162a432a700650e79a8e6326b0686e825c7df4e1d5b8a11471a8e"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/scenarios/__init__.py",
+    "destination": "src/future_work/chrono_mpc_integration/scenarios/__init__.py",
+    "bytes": 433,
+    "sha256": "9ffb460764180919527b0b2f2774bb7b725e035e74b1ff0674a8f823aaa4e56f"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/scenarios/double_lane_change.py",
+    "destination": "src/future_work/chrono_mpc_integration/scenarios/double_lane_change.py",
+    "bytes": 661,
+    "sha256": "8f637ddb48ccad779d125ae7dc653c77f6ae9acbb486f6c2c93ff736475e2487"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/scenarios/constant_radius.py",
+    "destination": "src/future_work/chrono_mpc_integration/scenarios/constant_radius.py",
+    "bytes": 603,
+    "sha256": "3c4054b21727348b87ce52e12cbb2d04d2ec7ce76aeb8922e17cefd1e70c561c"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/bridge/steering_adapter.py",
+    "destination": "src/future_work/chrono_mpc_integration/bridge/steering_adapter.py",
+    "bytes": 4240,
+    "sha256": "e23a824e311e4641dd2b19f22a8335fbd186795f981b06cfb31e468f18491d4e"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/bridge/speed_controller.py",
+    "destination": "src/future_work/chrono_mpc_integration/bridge/speed_controller.py",
+    "bytes": 3813,
+    "sha256": "cf769fc88ffd47a3c6c7607697d9b445affe18cb53122c71530cfb3cfd26881f"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/bridge/runner.py",
+    "destination": "src/future_work/chrono_mpc_integration/bridge/runner.py",
+    "bytes": 13748,
+    "sha256": "2badd13595bfd398accc6f47bc079f43d3673243317a58db8626f31985794be3"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/bridge/chrono_vehicle.py",
+    "destination": "src/future_work/chrono_mpc_integration/bridge/chrono_vehicle.py",
+    "bytes": 31684,
+    "sha256": "8fc7b17f112a00e5f25ab4de8452cf103cb6a6bcce8e0393a46fba2696eaf1ba"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/bridge/chrono_config.py",
+    "destination": "src/future_work/chrono_mpc_integration/bridge/chrono_config.py",
+    "bytes": 7791,
+    "sha256": "682034d81116f86c37180a6303d2196bc7012ca8407a0e0f63617985fa925e50"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/bridge/chrono_mpc_controller.py",
+    "destination": "src/future_work/chrono_mpc_integration/bridge/chrono_mpc_controller.py",
+    "bytes": 2385,
+    "sha256": "fea10988b03504deb5e7663704ddafa6b4c7f66ad4a5f8af2710a4f2d694d7e6"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/baseline_reproduction_audit/historical_protocol_wrapper.py",
+    "destination": "src/future_work/chrono_mpc_integration/baseline_reproduction_audit/historical_protocol_wrapper.py",
+    "bytes": 6867,
+    "sha256": "aeef9e2aa67cd42f162d130ea2fe2e011d827b3591ea6a525b09779f908170c0"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/baseline_reproduction_audit/__init__.py",
+    "destination": "src/future_work/chrono_mpc_integration/baseline_reproduction_audit/__init__.py",
+    "bytes": 75,
+    "sha256": "e3fc40db0c1306fc2d506442f0b05191d75d0a35b99dcd44f87be62056e76ae6"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_high_speed_yaw_dynamics_audit/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_high_speed_yaw_dynamics_audit/__init__.py",
+    "bytes": 71,
+    "sha256": "c36a3e82ac6cbf051bf7163af0f88efdef52233a590009fe734869ba80c0e96a"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_load_aware_four_wheel_abs_physical_correction/run_experiment.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_load_aware_four_wheel_abs_physical_correction/run_experiment.py",
+    "bytes": 15389,
+    "sha256": "7877a67097f741de2e934e3f6d8529922be58750be50f2b385b6207150735096"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_load_aware_four_wheel_abs_physical_correction/brake_supervisor.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_load_aware_four_wheel_abs_physical_correction/brake_supervisor.py",
+    "bytes": 6892,
+    "sha256": "5ac1ec1d70a7c08c9171bba62528038f8e02be1766f7f556c30e02059a96a38f"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_load_aware_four_wheel_abs_physical_correction/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_load_aware_four_wheel_abs_physical_correction/__init__.py",
+    "bytes": 81,
+    "sha256": "f6c964d7c92d5902884aa14996cab4137f555338a7e32fcc0063a12837b6134f"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_fullterrain_frozen_gmr_exploratory_closed_loop/run_experiment.py",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_fullterrain_frozen_gmr_exploratory_closed_loop/run_experiment.py",
+    "bytes": 20307,
+    "sha256": "ae38d8f9b89d36baa79b1dd7c2b3715bd90091278ea1f1208fd2803904edf3b2"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/brake_supervisor_v2_validation/brake_supervisor_v2.py",
+    "destination": "src/future_work/short_horizon_output_residual/brake_supervisor_v2_validation/brake_supervisor_v2.py",
+    "bytes": 3426,
+    "sha256": "9c942c2ef24c2998bd294c5b4a5da5b02c34952022c99e16ba528ac998d77b88"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/brake_supervisor_v2_validation/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/brake_supervisor_v2_validation/__init__.py",
+    "bytes": 73,
+    "sha256": "691c177509aa0207e092dc1cf8fc8bec26c5df59b2c1860db88713160bdbf6b8"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/pipeline.py",
+    "destination": "src/future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/pipeline.py",
+    "bytes": 32803,
+    "sha256": "b27ef4153597db22c10cc0f4af256fd25436fc6340ebefd971ad7bc0bc03d983"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ce_gmr_2_preliminary/ce_gmr_model.py",
+    "destination": "src/future_work/short_horizon_output_residual/ce_gmr_2_preliminary/ce_gmr_model.py",
+    "bytes": 3925,
+    "sha256": "96ac96e5b05af780afd596eb44068e7b72d79b6db045df3f2c0a3a6a8c54d995"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ce_gmr_2_preliminary/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/ce_gmr_2_preliminary/__init__.py",
+    "bytes": 57,
+    "sha256": "c554a8402c9bdc1ec6eeffed9b53e95bf7e9cf4fbd59134ce4089eab8762b4c5"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/__init__.py",
+    "destination": "src/future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/__init__.py",
+    "bytes": 77,
+    "sha256": "715a395f82c6230c8b10db56c0cb469e4c43ec659677744a1222a7f02d2d63db"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/control_aware_rollout_gmr/outputs/selected_rollout_aligned_B.joblib",
+    "destination": "models/gmm1_control_k3.joblib",
+    "bytes": 6943,
+    "sha256": "aa763629ba6c395c76dbbe96a005f98e03336c3a246922dbafbbe191f60c8659"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/models/gmm2_current.joblib",
+    "destination": "models/gmm2_current.joblib",
+    "bytes": 53009,
+    "sha256": "d003822fb03aa2ea5b8aab4e4fbc609b0ca624b3dd5e4193b557036fa97560a8"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/models/gmm2_history.joblib",
+    "destination": "models/gmm2_history.joblib",
+    "bytes": 73343,
+    "sha256": "4d3cfcb44a94a01eb124882d79537c104e128d91bfbd02732d906d1f91f8368c"
+  },
+  {
+    "source": "revision_round1/reviewer2_residual_baselines/bic_extension_k1_15/selected_model/proposed_gmm_gmr_k15.joblib",
+    "destination": "models/gmm1_paper_k15.joblib",
+    "bytes": 20996,
+    "sha256": "6e2594fd609416f8ed13d394395d7e81b8d9d16fc495a36ebd6e18fda6e05214"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/control_aware_rollout_gmr/outputs/selected_rollout_aligned_B.joblib",
+    "destination": "src/future_work/short_horizon_output_residual/control_aware_rollout_gmr/outputs/selected_rollout_aligned_B.joblib",
+    "bytes": 6943,
+    "sha256": "aa763629ba6c395c76dbbe96a005f98e03336c3a246922dbafbbe191f60c8659"
+  },
+  {
+    "source": "FITTED_MODEL_PARAMETERS.json",
+    "destination": "src/FITTED_MODEL_PARAMETERS.json",
+    "bytes": 468,
+    "sha256": "ff97dcb8f33c90741c28ea887c93884a8d56c0c5edfd290cf33605024ea987c4"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/control_aware_rollout_gmr/datasets/train_rollout_aligned_long_table.csv",
+    "destination": "src/future_work/short_horizon_output_residual/control_aware_rollout_gmr/datasets/train_rollout_aligned_long_table.csv",
+    "bytes": 23763224,
+    "sha256": "e61f7b429a47af1b732da22e7175a23ae392d8f5c65d2edeb68a3f363b744743"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_terrain_coverage_rebuild/configs/C-MU080-FULL_terrain.json",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_terrain_coverage_rebuild/configs/C-MU080-FULL_terrain.json",
+    "bytes": 1051,
+    "sha256": "91d31c0d3023cae748764ee1a5fa586e0912996e8f167f5898c17bfee89a3f3b"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_terrain_coverage_rebuild/configs/C-MU090-FULL-PREFIX_terrain.json",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_terrain_coverage_rebuild/configs/C-MU090-FULL-PREFIX_terrain.json",
+    "bytes": 1051,
+    "sha256": "36e84e276be47da5fabc9f1ff6214c4a81242e378bee511b928408073b932d57"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_terrain_coverage_rebuild/configs/C-MU090-FULL_terrain.json",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_terrain_coverage_rebuild/configs/C-MU090-FULL_terrain.json",
+    "bytes": 1051,
+    "sha256": "36e84e276be47da5fabc9f1ff6214c4a81242e378bee511b928408073b932d57"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_terrain_coverage_rebuild/configs/C-MU100-FULL_terrain.json",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_terrain_coverage_rebuild/configs/C-MU100-FULL_terrain.json",
+    "bytes": 1051,
+    "sha256": "101024ad64b8291f92ca77ba5d9ec65390ead96ecc71c9dc3468763284d0653f"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/ft03_terrain_coverage_rebuild/configs/D-MU090-FULL_terrain.json",
+    "destination": "src/future_work/short_horizon_output_residual/ft03_terrain_coverage_rebuild/configs/D-MU090-FULL_terrain.json",
+    "bytes": 1051,
+    "sha256": "36e84e276be47da5fabc9f1ff6214c4a81242e378bee511b928408073b932d57"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm1_foundation_stage1/high_speed_protocol.json",
+    "destination": "src/future_work/short_horizon_output_residual/gmm1_foundation_stage1/high_speed_protocol.json",
+    "bytes": 3476,
+    "sha256": "3e52e58b4bb2dcd1a71dc2cb9d7312a38829cc82f1f1768868805d07e8a474b6"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm1_foundation_stage1/protocol.json",
+    "destination": "src/future_work/short_horizon_output_residual/gmm1_foundation_stage1/protocol.json",
+    "bytes": 1601,
+    "sha256": "d21c16435689094367862b34ff97fc57e3d1bc83f15a538fca611cc3d291c094"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/f1_200_scene_collection/organized/collection_summary.json",
+    "destination": "src/future_work/short_horizon_output_residual/f1_200_scene_collection/organized/collection_summary.json",
+    "bytes": 245,
+    "sha256": "57ef25f9c33e8ae9495d33f0033574e5ee37608684b8dd1ffb7ca9fa467b0907"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/dynamic_transition_dataset.csv.gz",
+    "destination": "data/dynamic_transition_dataset.csv.gz",
+    "bytes": 4647556,
+    "sha256": "9ec982047ec7470acac508cad2344971011f16965ac4a7d7571110c3d36f5b04"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/fit_sample_manifest.csv",
+    "destination": "data/fit_sample_manifest.csv",
+    "bytes": 690842,
+    "sha256": "3098af46d57f9cc3cfba726aaf4ae34bbaed486194e4ec90e05cf03a7637584b"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/feature_table.csv",
+    "destination": "docs/results/feature_table.csv",
+    "bytes": 1885,
+    "sha256": "7447e391d2b119b4e2d608fcff605c1a797d5995544715196a7bad38d3887d9b"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/split_sample_counts.csv",
+    "destination": "docs/results/split_sample_counts.csv",
+    "bytes": 112,
+    "sha256": "85026e6e561fc00ef7215dec4a7978b160b6fa7899fdc9564ff5179c256eb691"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/validation_capacity_selection.csv",
+    "destination": "docs/results/validation_capacity_selection.csv",
+    "bytes": 1358,
+    "sha256": "43f0f6d858c2bdcfeb7dc3505d3f5cf59e3920e4bd3adf5ce79f9e155b845af9"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/grouped_evaluation.csv",
+    "destination": "docs/results/grouped_evaluation.csv",
+    "bytes": 17809,
+    "sha256": "8b2dfe270215cc2b007c6b05821d5f0fe01147eaaf184eb32dec182252895fba"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/per_scene_evaluation.csv",
+    "destination": "docs/results/per_scene_evaluation.csv",
+    "bytes": 126026,
+    "sha256": "d6549040fc27f1f8ccfc2cbf9418dc5fffa756f246d13b2c4f2ffa2ba1de680d"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/test_worst_cases.csv",
+    "destination": "docs/results/test_worst_cases.csv",
+    "bytes": 4679,
+    "sha256": "a3131f51243bf46192c914a454d89d40665fc76f5eec0a56a476d4477f694fdf"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/FINAL_REPORT_ZH.md",
+    "destination": "docs/results/FINAL_REPORT_ZH.md",
+    "bytes": 5200,
+    "sha256": "7ea5f3e5ac8baf0b74abfda6977883e4845275ac5b4ff2ce1ea45a2fbdee5e9a"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/gmm2_200_lowdim_dynamic/results/inference_timing.csv",
+    "destination": "docs/results/inference_timing.csv",
+    "bytes": 292,
+    "sha256": "7eeab12e4e8568f46c82b5005089426a7edc1fd3dbff82cd4f0a516f45cacb45"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/control_aware_rollout_gmr/outputs/training_summary.json",
+    "destination": "docs/provenance/outputs/training_summary.json",
+    "bytes": 705,
+    "sha256": "09db134c489a462d56e547731458b6510c151a015d7fc28a24c38ad31c76dfd4"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/control_aware_rollout_gmr/outputs/rollout_aligned_validation_candidates.csv",
+    "destination": "docs/provenance/outputs/rollout_aligned_validation_candidates.csv",
+    "bytes": 566,
+    "sha256": "2cda842deb9a97e9357aeed248d39a44cfe06c6c0e1c230e8e9c53f40b1e2530"
+  },
+  {
+    "source": "revision_round1/reviewer2_residual_baselines/bic_extension_k1_15/audit/frozen_chain.json",
+    "destination": "docs/provenance/audit/frozen_chain.json",
+    "bytes": 893,
+    "sha256": "35bc9ea9bf279214ab40c2d7d6b48a9dcabd804a639732639e3244ad12c98afc"
+  },
+  {
+    "source": "revision_round1/reviewer2_residual_baselines/bic_extension_k1_15/final_selected_model.json",
+    "destination": "docs/provenance/bic_extension_k1_15/final_selected_model.json",
+    "bytes": 1837,
+    "sha256": "e58830297a88dba613ca5d3080bd4295ace60ff091e867a98289523272730af4"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/f1_200_scene_collection/organized/dataset_index.csv",
+    "destination": "docs/provenance/dataset_index.csv",
+    "bytes": 105717,
+    "sha256": "93e73c78d54e9b3fad3daed448bcb681dd6fce26fe1c9708b803ae9f3703a34c"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/f1_200_scene_collection/organized/scenario_quality_summary.csv",
+    "destination": "docs/provenance/scenario_quality_summary.csv",
+    "bytes": 78374,
+    "sha256": "d3ac0cfd4a7336c6d5d3cdce606593f08ea3b66772f6acf4480ae570365d851d"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/f1_200_scene_collection/COLLECTION_COMPLETION_REPORT_ZH.md",
+    "destination": "docs/provenance/COLLECTION_COMPLETION_REPORT_ZH.md",
+    "bytes": 3849,
+    "sha256": "5274fee2bf9d658441da96427c53fb4b27d7bf07b64fda29b8182d074b0085cc"
+  },
+  {
+    "source": "future_work/short_horizon_output_residual/f1_200_actual_input_replay/results/FINAL_REPORT_ZH.md",
+    "destination": "docs/provenance/replay_report.md",
+    "bytes": 4849,
+    "sha256": "501d47146610b3e23a45cde2e3dc347a3761f602d6a370e170f3a4650129e676"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/configs/steering/golflike3d_v1_steering_calibration.json",
+    "destination": "src/future_work/chrono_mpc_integration/configs/steering/golflike3d_v1_steering_calibration.json",
+    "bytes": 2014,
+    "sha256": "5402c350b6b0acda23a931a069595c88e90604e48596dcae85e22915430e412a"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/vehicle_models/GolfLike/GolfLike_Chassis.json",
+    "destination": "src/future_work/chrono_mpc_integration/vehicle_models/GolfLike/GolfLike_Chassis.json",
+    "bytes": 641,
+    "sha256": "9f6211030ba647d3ba59a96574497a088454d57e91f4dd858550e7af4c2bd22a"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/vehicle_models/GolfLike/GolfLike_TMeasy_Front.json",
+    "destination": "src/future_work/chrono_mpc_integration/vehicle_models/GolfLike/GolfLike_TMeasy_Front.json",
+    "bytes": 1552,
+    "sha256": "3c235d2af7ccca06266f9d387870a0d4654bd46814831f3acf1c6554bf58a334"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/vehicle_models/GolfLike/GolfLike_TMeasy_Rear.json",
+    "destination": "src/future_work/chrono_mpc_integration/vehicle_models/GolfLike/GolfLike_TMeasy_Rear.json",
+    "bytes": 1551,
+    "sha256": "8a24643b1acb3ec0fc4f102f6a3e826b4171475e8104de6f3a4054595fd70cf4"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/vehicle_models/GolfLike/GolfLike_Vehicle.json",
+    "destination": "src/future_work/chrono_mpc_integration/vehicle_models/GolfLike/GolfLike_Vehicle.json",
+    "bytes": 1393,
+    "sha256": "da993fd156256bc5ebcb07afcd8ec2b78b49c0f2ecaeecb406fbffe766f57f24"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/vehicle_models/GolfLike3D_v1/GolfLike3D_v1_AntirollBar_Front.json",
+    "destination": "src/future_work/chrono_mpc_integration/vehicle_models/GolfLike3D_v1/GolfLike3D_v1_AntirollBar_Front.json",
+    "bytes": 366,
+    "sha256": "f02a6824e474630af7ecff573f67c86f7c0361744b8c0ba5eea2dc9ef87d46ce"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/vehicle_models/GolfLike3D_v1/GolfLike3D_v1_AntirollBar_Rear.json",
+    "destination": "src/future_work/chrono_mpc_integration/vehicle_models/GolfLike3D_v1/GolfLike3D_v1_AntirollBar_Rear.json",
+    "bytes": 364,
+    "sha256": "d279a17757ada9f99bb06d727b8fcf97597d90c0ac26508a6310b6d9a0f4c4cb"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/vehicle_models/GolfLike3D_v1/GolfLike3D_v1_Chassis.json",
+    "destination": "src/future_work/chrono_mpc_integration/vehicle_models/GolfLike3D_v1/GolfLike3D_v1_Chassis.json",
+    "bytes": 613,
+    "sha256": "2304ac7f7628ea565528f0cda5962ec625ebff3200c6da3a84ee770e075420ea"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/vehicle_models/GolfLike3D_v1/GolfLike3D_v1_DoubleWishbone.json",
+    "destination": "src/future_work/chrono_mpc_integration/vehicle_models/GolfLike3D_v1/GolfLike3D_v1_DoubleWishbone.json",
+    "bytes": 1703,
+    "sha256": "6cb94d03e602b1a188487276bbd865b02baf4a681181f4d2d29340ea4a31915f"
+  },
+  {
+    "source": "future_work/chrono_mpc_integration/vehicle_models/GolfLike3D_v1/GolfLike3D_v1_Vehicle.json",
+    "destination": "src/future_work/chrono_mpc_integration/vehicle_models/GolfLike3D_v1/GolfLike3D_v1_Vehicle.json",
+    "bytes": 1625,
+    "sha256": "725bf198e98a1ba76edd9a5d49c8ce7951cb208bc0066a0a5c4b14dd1f5c5a6f"
+  }
+]

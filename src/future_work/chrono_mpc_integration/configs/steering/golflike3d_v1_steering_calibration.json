@@ -1,0 +1,19 @@
+{
+  "version": "2.15-v1",
+  "vehicle_model": "GolfLike3D_v1",
+  "method": "settled static geometric front-wheel scan",
+  "physics_dt_s": 0.002,
+  "mapping_table": [
+    {"normalized_steering": -0.8, "equivalent_road_wheel_angle_rad": -0.4815898184953764, "left_front_wheel_angle_rad": -0.47269358249956783, "right_front_wheel_angle_rad": -0.4904040821093275},
+    {"normalized_steering": -0.6, "equivalent_road_wheel_angle_rad": -0.35653804425735913, "left_front_wheel_angle_rad": -0.34456125181628755, "right_front_wheel_angle_rad": -0.3684089310361803},
+    {"normalized_steering": -0.4, "equivalent_road_wheel_angle_rad": -0.23563411025274225, "left_front_wheel_angle_rad": -0.22098023619394977, "right_front_wheel_angle_rad": -0.2501855977391033},
+    {"normalized_steering": -0.2, "equivalent_road_wheel_angle_rad": -0.11726085094928297, "left_front_wheel_angle_rad": -0.10084796591359772, "right_front_wheel_angle_rad": -0.13361051892970574},
+    {"normalized_steering": 0.0, "equivalent_road_wheel_angle_rad": 7.599807056033025e-06, "left_front_wheel_angle_rad": 0.01701251296075558, "right_front_wheel_angle_rad": -0.01699731773949789},
+    {"normalized_steering": 0.2, "equivalent_road_wheel_angle_rad": 0.11726058969228671, "left_front_wheel_angle_rad": 0.1336103997624084, "right_front_wheel_angle_rad": 0.10084756163403552},
+    {"normalized_steering": 0.4, "equivalent_road_wheel_angle_rad": 0.23567492604567505, "left_front_wheel_angle_rad": 0.2502252669087249, "right_front_wheel_angle_rad": 0.22102219566630804},
+    {"normalized_steering": 0.6, "equivalent_road_wheel_angle_rad": 0.3566057109795082, "left_front_wheel_angle_rad": 0.3684649689881163, "right_front_wheel_angle_rad": 0.3446407348241653},
+    {"normalized_steering": 0.8, "equivalent_road_wheel_angle_rad": 0.48157188580652643, "left_front_wheel_angle_rad": 0.4903870264913413, "right_front_wheel_angle_rad": 0.4726747627197564}
+  ],
+  "range_rad": [-0.4815898184953764, 0.48157188580652643],
+  "sign_and_monotonicity_passed": true
+}

@@ -1,0 +1,4 @@
+split,scenes,available_transitions,fit_transitions
+test,40,4506,0
+train,120,13296,6480
+validation,40,4381,0
